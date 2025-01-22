@@ -177,24 +177,3 @@ docker-compose down --volumes
 docker-compose up --build
 ```
 
-### Sécurité
-Ne divulguez jamais vos informations sensibles telles que les mots de passe dans votre dépôt GitHub. Assurez-vous que le fichier .env est bien inclus dans .gitignore.
-
-### Mises à Jour des Dépendances
-Régulièrement, mettez à jour vos dépendances avec Poetry pour bénéficier des dernières fonctionnalités et correctifs de sécurité :
-```bash
-poetry update
-```
-
-### Optimisation Docker
-- Utilisez le cache Docker efficacement en structurant votre Dockerfile de manière à minimiser les rebuilds inutiles
-- Évitez de copier tout le répertoire du projet avant d'installer les dépendances, cela permet de profiter du cache Docker pour les dépendances qui ne changent pas souvent
-
-## 5. Licence
-
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
-
----
-
-Merci d'avoir utilisé Housing API ! 😊  
-N'hésitez pas à ouvrir des issues ou des pull requests si vous avez des suggestions ou des améliorations à proposer.
