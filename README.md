@@ -18,12 +18,7 @@
    cd housing-firstname-lastname/housing-api
    ```
 
-2. **Vérifier que les fichiers nécessaires sont présents** :  
-   Assurez-vous que les fichiers suivants existent dans le projet :
-   - `docker-compose.yml`
-   - `Dockerfile`
-   - `app/` (le dossier contenant le code source)
-   - `pyproject.toml` et `poetry.lock`
+
 
 ## 2. Lancer le Projet avec Docker
 
